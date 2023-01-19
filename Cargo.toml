@@ -13,7 +13,7 @@ audir-sles = "0.1.0"
 audrey = { version = "0.3", default-features = false, features = ["wav", "ogg_vorbis"] }
 
 [target.'cfg(any(target_os = "linux", target_os = "dragonfly", target_os = "freebsd"))'.dependencies]
-quad-alsa-sys = "0.3.2"
+alsa-sys = "0.3.1"
 libc = "0.2"
 
 [target.'cfg(target_os = "windows")'.dependencies]
